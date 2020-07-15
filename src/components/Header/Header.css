@@ -1,0 +1,87 @@
+.normal{
+    color:#fff;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.sub-normal{
+    color:rgb(228, 224, 224);
+    font-size: 0.6em;
+}
+
+header{
+    background:linear-gradient(90deg,#46639e, #3b5998);
+    height: 70px;
+}
+
+.inner-header{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    margin:auto;
+    
+}
+
+.inner-header .logo{
+    flex: 1;
+}
+.inner-header .logo img{
+    width:90px;
+}
+
+.inner-header .form{
+    flex:.7;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-header .form .first{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    align-items: flex-start;
+}
+.inner-header .form .first div{
+    flex: 1;
+    height:8px;
+    /* padding: 2px 0 0 0; */
+    /* border: 1px solid #000; */
+}
+.inner-header .form .second{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+}
+.inner-header .form .second div{
+    flex: 1;
+    
+    /* border: 1px solid #000; */
+}
+.inner-header .form .second div input{
+    width:120px;
+    margin: 5px 0 0 0;
+    border:1px solid #000;
+}
+.inner-header .form .second div button{
+    margin: 5px 0 0 0;
+    background: #4267b293;
+    color:#fff;
+    border:1.3px solid #374c75;
+    padding: 1px 10px;
+    font-weight: bold;
+}
+.inner-header .form .third{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    height: 5px;
+    align-items: center;
+}
+.inner-header .form .third div{
+    flex: 1;
+    /* border: 1px solid #000; */
+}
